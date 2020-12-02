@@ -86,7 +86,8 @@ class File_control:
             for i in range(len(self.list1)):
                 print("Enter input for",self.list1[i]+str(n1)+":")
                 dict2[self.list1[i]]=str(input())
-            k[str(n1)]=dict2          # updating as a dict with key and values as entered by the user
+            k[str(n1)]=dict2
+        self.time1[n1]=int(time.time())          # updating as a dict with key and values as entered by the user
         with open(self.position,"w") as f:
             json.dump(data1,f)
 
