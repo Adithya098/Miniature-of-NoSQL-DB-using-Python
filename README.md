@@ -1,4 +1,4 @@
-# Detailed Input and Ouput Screenshot
+# Detailed Input and Ouput Screenshots
 
 I have commented the code
 you can also understand by seeing the inputs and  outputs in the below attached pdf. 
